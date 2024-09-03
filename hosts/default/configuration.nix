@@ -44,6 +44,11 @@
     variant = "";
   };
 
+  # Configure Fonts
+  fonts.packages = with pkgs; [
+    (nerdfonts.override { fonts = [ "FiraCode" "DroidSansMono" ]; })
+  ];
+
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
