@@ -86,6 +86,11 @@
     editor = "nvim";
   };
 
+  rbw = {
+    enable = true;
+    email = "jack@koskie.ca";
+  };
+
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
