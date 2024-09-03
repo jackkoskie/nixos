@@ -46,7 +46,7 @@
 
   # Configure Fonts
   fonts.packages = with pkgs; [
-    (nerdfonts.override { fonts = [ "FiraCode" "DroidSansMono" ]; })
+    (nerdfonts.override { fonts = [ "0xProto" ]; })
   ];
 
   # Enable CUPS to print documents.
