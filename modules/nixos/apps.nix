@@ -5,6 +5,7 @@
     alacritty
     discord
     davinci-resolve
+    obsidian
   ];
 
   # Davinci Resolve Intel Support
