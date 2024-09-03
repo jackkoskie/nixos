@@ -1,7 +1,7 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
     neovim
-    clang-tools
+    gcc
     alacritty
     discord
     davinci-resolve
